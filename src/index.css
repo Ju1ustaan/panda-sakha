@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.sky {
+    background: url('https://avatars.dzeninfra.ru/get-zen_doc/5159028/pub_63e772827754920597b2689a_63e772c9e63550205533b125/scale_1200') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+.socialBtn-0:hover {
+    color: black;
+    border-color: black;
+}
+.socialBtn-1:hover {
+    color: red;
+    border-color: red;
+}
+.socialBtn-2:hover {
+    color: blue;
+    border-color: blue;
+}
+.socialBtn-3:hover {
+    color: purple;
+    border-color: purple;
+}
+.socialBtn-4:hover {
+    color: #0077ff;
+    border-color: #0077ff;
+}
+.socialBtn-5:hover {
+    color: #ffc400;
+    border-color: #ffc400;
+}
+.socialBtn-0 svg {
+    fill: black;
+}
+.socialBtn-1 svg {
+    fill: red;
+}
+.socialBtn-2 svg {
+    fill: blue;
+}
+.socialBtn-3 svg {
+    fill: purple;
+}
+.socialBtn-4 svg {
+    fill: #0077ff;
+}
+.socialBtn-5 svg {
+    fill: #ffc400;
+}
+
+.social {    
+    opacity: 0; 
+    animation: showIn 1s ease-in reverse;
+}
+
+.showSocial {
+    animation: showIn .3s ease-in;
+    
+
+}
+
+@keyframes showIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
